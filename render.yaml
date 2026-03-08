@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: artistry-backend
+    runtime: python
+    pythonVersion: 3.10
+    plan: free
+    rootDir: app
+    startCommand: gunicorn -b 0.0.0.0:$PORT app:app
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: artistry-db
+          property: connectionString
+      - key: SECRET
+        generateValue: true
+      - key: PYTHON_VERSION
+        value: 3.10
+
+databases:
+  - name: artistry-db
+    plan: free

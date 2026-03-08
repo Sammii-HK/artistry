@@ -1,0 +1,8 @@
+flask
+pony
+psycopg2-binary
+marshmallow
+bcrypt
+pyjwt
+requests
+gunicorn
