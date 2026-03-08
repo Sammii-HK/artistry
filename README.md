@@ -1,6 +1,6 @@
 # Artistry - SEI Project 4
 
-A full-stack application, which users can search the Rijksmuseum API, with a React front-end and SQL database. The application includes data schemaa and a RESTful api framework built with Python.
+A full-stack application, which users can search the Rijksmuseum API, with a React front-end and SQL database. The application includes data schema and a RESTful api framework built with Python.
 
 ## Details
 
@@ -35,11 +35,11 @@ My initial idea came from there being no obvious central place for artworks from
 
 I wanted to create a minimalist experience which demonstrated the artwork as the main focus of the page. The Magnifier package allows users to interact with the images and takes advantage of the quality of photographs available from the API.
 
-I achieved this with many subtle uses of user interaction on hover states and utalising packagaes available with npm, so users can delve deeper into the artworks.
+I achieved this with many subtle uses of user interaction on hover states and utilizing packages available with npm, so users can delve deeper into the artworks.
 
 #### Development Process
 
-My first concern when planning my app was my database and orangising the one:many relationship I had in mind for users to add favorite art works, allowing a user to store favourite artworks on their profile.
+My first concern when planning my app was my database and organising the one:many relationship I had in mind for users to add favorite art works, allowing a user to store favourite artworks on their profile.
 
 ![image](https://user-images.githubusercontent.com/40900195/60629130-70186380-9dec-11e9-9572-f98f13c8e2ba.png)
 

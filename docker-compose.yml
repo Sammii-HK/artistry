@@ -1,0 +1,11 @@
+services:
+  artistry:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    image: artistry
+    container_name: artistry
+    ports:
+      - 1818:1818
+    environment:
+      PORT: 1818
